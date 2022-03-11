@@ -26,7 +26,7 @@ addEventListener("load", function(){
                             <li>Skills: ${skillString}</li>
                         </ul>
                     </div>
-                    <img class="avatar" src=${json[i].picture}
+                    <img class="avatar" src=${json[i].picture}>
                 </div>`;
             }
             container.innerHTML = astroString;
